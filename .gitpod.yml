@@ -4,7 +4,8 @@ image:
 tasks:
   -  before: mkdir android \
              && touch logs.txt
-     command: echo "fred was here" >>  logs.txt \
+     command: echo "cd /workspace/my-gitpod-android" >>  logs.txt \
+              && cd /workspace/my-gitpod-android \
               && echo  >>  logs.txt \    
               && echo "ls -la" >>  logs.txt \      
               && ls -la >> logs.txt \
