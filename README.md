@@ -1,4 +1,6 @@
 # my-gitpod-android-install
 
 
-This is not yet working jun 3, 2019
+This presently is a work in progress. Just trying to get android installed on a gitpod using the Dockerfile.
+
+
