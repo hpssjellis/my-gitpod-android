@@ -6,11 +6,11 @@ tasks:
              touch logs.txt
              
              
-     command: echo "ls -la"          2>&1 | tee  logs.txt \ &&     
-              ls -la                 2>&1 | tee  logs.txt \ &&  
-              echo                   2>&1 | tee  logs.txt \ &&    
-              echo "javac -version"  2>&1 | tee  logs.txt \ &&       
-              javac -version         2>&1 | tee  logs.txt  
+     command: echo "ls -la"          2>&1 >> logs.txt \ &&     
+              ls -la                 2>&1 >> logs.txt \ &&  
+              echo                   2>&1 >> logs.txt \ &&    
+              echo "javac -version"  2>&1 >> logs.txt \ &&       
+              javac -version         2>&1 >> logs.txt  
 
     
     
