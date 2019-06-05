@@ -2,12 +2,12 @@ image:
   file: Dockerfile
 
 tasks:
-  -  before: mkdir /other \ &&
-             mkdir android
+  -  before: touch logs.txt \ &&
+             mkdir myTempDir
              
              
-     command: echo "ls"      >> logs.txt \ &&    
-              ls             >> logs.txt \ &&          
+     command: echo "ls -la"  >> logs.txt \ &&    
+              ls -la         >> logs.txt \ &&          
               echo           >> logs.txt \ &&       
               
               echo "pwd"     >> logs.txt \ &&          
