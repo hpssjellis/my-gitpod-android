@@ -27,10 +27,10 @@ RUN apt-get update \
 
 USER gitpod
 
-RUN java -version >> "logs.txt" \
-&& javac -version >> "logs.txt"  \
-&& pwd >> "logs.txt"  \
-&& ls -la >> "logs.txt" 
+RUN java -version >> logs.txt \
+&& javac -version >> logs.txt  \
+&& pwd >> logs.txt  \
+&& ls -la >> logs.txt 
 
 
 
