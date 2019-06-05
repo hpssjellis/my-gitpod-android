@@ -2,8 +2,10 @@ image:
   file: Dockerfile
 
 tasks:
-  -  before: mkdir android && touch logs.txt
-     command: echo "fred was here\n" >>  logs.txt && ls -la >> logs.txt
+  -  before: mkdir android \
+             && touch logs.txt
+     command: echo "fred was here/n" >>  logs.txt \
+              && ls -la >> logs.txt
 
     
     
