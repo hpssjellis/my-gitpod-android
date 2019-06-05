@@ -3,14 +3,12 @@ image:
 
 tasks:
   -  before: mkdir android \ &&
-              touch logs.txt
-     command: echo "cd /workspace/my-gitpod-android" >>  logs.txt \ 
-              && echo  >>  logs.txt \     
-              && echo "ls -la" >>  logs.txt \       
-              && ls -la >> logs.txt \ 
-              && echo  >>  logs.txt \   
-              && echo "javac -version" >>  logs.txt \       
-              && javac -version >> logs.txt  
+             touch logs.txt
+     command: echo "ls -la" >>  logs.txt \ &&     
+              ls -la >> logs.txt \ &&  
+              echo  >>  logs.txt \ &&    
+              echo "javac -version" >>  logs.txt \ &&       
+              javac -version >> logs.txt  
 
     
     
