@@ -6,12 +6,19 @@ tasks:
              mkdir android
              
              
-     command: echo "ls -la"          2>&1 >> logs.txt \ &&     
-              ls                     2>&1 >> logs.txt \ &&  
-              echo                   2>&1 >> logs.txt \ &&    
-              echo "pwd"             2>&1 >> logs.txt \ &&       
-              pwd                    2>&1 >> logs.txt  
-
-    
-    
+     command: echo "ls -la" 2>&1 >> logs.txt \ &&     
+              ls -la        2>&1 >> logs.txt \ &&       
+              echo          2>&1 >> logs.txt \ &&   
+              
+              echo "pwd"    2>&1 >> logs.txt \ &&       
+              pwd           2>&1 >> logs.txt \ &&  
+              echo          2>&1 >> logs.txt \ &&  
+              
+              echo "cd .."  2>&1 >> logs.txt \ &&       
+              cd ..         2>&1 >> logs.txt \ &&  
+              echo          2>&1 >> logs.txt \ &&    
+              
+              echo "pwd"    2>&1 >> logs.txt \ &&       
+              pwd           2>&1 >> logs.txt \ &&  
+              echo          2>&1 >> logs.txt 
  
