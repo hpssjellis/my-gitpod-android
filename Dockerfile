@@ -8,9 +8,10 @@ RUN apt-get update \
 
 
 
- #RUN \
- #  wget https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip \
- #  && unzip sdk-tools-linux-3859397.zip
+ RUN mkdir /workspace/my-gitpod-android-install-02/android \
+   && wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip \
+   && unzip sdk-tools-linux-4333796.zip -d ./android \
+   && ./workspace/my-gitpod-android-install-02/android/tools/bin/sdkmanager --list 
  
  
 # ./tools/bin/sdkmanager --list 
