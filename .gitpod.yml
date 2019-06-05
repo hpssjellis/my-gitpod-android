@@ -2,23 +2,23 @@ image:
   file: Dockerfile
 
 tasks:
-  -  before: touch logs.txt \ &&
+  -  init: touch logs.txt  &&
              mkdir myTempDir
              
              
-     command: echo "ls -la"  >> logs.txt \ &&    
-              ls -la         >> logs.txt \ &&          
-              echo           >> logs.txt \ &&       
+     command: echo "ls -la"  >> logs.txt  &&    
+              ls -la         >> logs.txt  &&          
+              echo           >> logs.txt  &&       
               
-              echo "pwd"     >> logs.txt \ &&          
-              pwd            >> logs.txt \ &&     
-              echo           >> logs.txt \ &&     
+              echo "pwd"     >> logs.txt  &&          
+              pwd            >> logs.txt  &&     
+              echo           >> logs.txt  &&     
               
-              echo "cd .."   >> logs.txt \ &&          
-              cd ..          >> logs.txt \ &&     
-              echo           >> logs.txt \ &&       
+              echo "cd .."   >> logs.txt  &&          
+              cd ..          >> logs.txt  &&     
+              echo           >> logs.txt  &&       
               
-              echo "pwd"     >> logs.txt \ &&           
-              pwd            >> logs.txt \ &&     
+              echo "pwd"     >> logs.txt  &&           
+              pwd            >> logs.txt  &&     
               echo           >> logs.txt 
  
