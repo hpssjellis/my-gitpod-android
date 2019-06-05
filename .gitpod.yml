@@ -2,7 +2,7 @@ image:
   file: Dockerfile
 
 tasks:
-  -  before: touch logs.txt \ &&
+  -  before: mkdir /other \ &&
              mkdir android
              
              
