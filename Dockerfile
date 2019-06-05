@@ -5,8 +5,6 @@ USER root
 # Install custom tools, runtime, etc.
 RUN apt-get update \
     && apt-get install -y default-jdk \
-    && wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip \
-    && unzip sdk-tools-linux-4333796.zip -d android \
     && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
 
 
@@ -29,7 +27,8 @@ RUN apt-get update \
 
 USER gitpod
 
-#RUN wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip \
+RUN wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip 
+#\
   #  && unzip sdk-tools-linux-4333796.zip -d android \
   #  && rm sdk-tools-linux-4333796.zip \
   #  && ./android/tools/bin/sdkmanager --list 
