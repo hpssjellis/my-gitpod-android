@@ -5,12 +5,12 @@ tasks:
   -  before: mkdir android \
              && touch logs.txt
      command: echo "fred was here" >>  logs.txt \
-              && echo "" >>  logs.txt \       # a blank line
+              && echo  >>  logs.txt \     # just  blank line
               && echo "ls -la" >>  logs.txt \      
               && ls -la >> logs.txt \
-              && echo "" >>  logs.txt \       # a blank line
+              && echo  >>  logs.txt \  
               && echo "javac -version" >>  logs.txt \      
-              && javac -version >> logs.txt \
+              && javac -version >> logs.txt 
 
     
     
