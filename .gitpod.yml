@@ -15,13 +15,13 @@ tasks:
               echo           >> /workspace/my-gitpod-android/logs.txt  &&      
               
               echo "java -version"   >> /workspace/my-gitpod-android/logs.txt  &&           
-              java -version         2>&1 >> /workspace/my-gitpod-android/logs.txt  &&     
+              java -version         |& tee -a  /workspace/my-gitpod-android/logs.txt  &&     
               echo                   >> /workspace/my-gitpod-android/logs.txt  &&      
                             
               
-              echo "javac -version"    >> /workspace/my-gitpod-android/logs.txt  &&             
-              javac -version         2>&1  >> /workspace/my-gitpod-android/logs.txt  &&      
-              echo                     >> /workspace/my-gitpod-android/logs.txt  
+              echo "javac -version"  |& tee -a  /workspace/my-gitpod-android/logs.txt  &&             
+              javac -version         |& tee -a  /workspace/my-gitpod-android/logs.txt  &&      
+              echo                   |& tee -a  /workspace/my-gitpod-android/logs.txt  
               
               
  
