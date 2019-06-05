@@ -3,4 +3,4 @@ image:
 
 tasks:
   - before: mkdir android
-    command: "Cool"
+    command: echo "Cool"
