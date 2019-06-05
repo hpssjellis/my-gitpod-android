@@ -4,6 +4,8 @@ image:
 tasks:
   -  before: mkdir android \ &&
              touch logs.txt
+             
+             
      command: echo "ls -la" >>  logs.txt \ &&     
               ls -la >> logs.txt \ &&  
               echo  >>  logs.txt \ &&    
