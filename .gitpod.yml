@@ -3,6 +3,7 @@ image:
 
 tasks:
   -  before: mkdir android && touch logs.txt
+     command: ls -la >> logs.txt 
 
     
     
