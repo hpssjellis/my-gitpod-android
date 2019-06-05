@@ -6,19 +6,19 @@ tasks:
              mkdir myTempDir
              
              
-     command: echo "ls -la"  >> logs.txt  &&    
-              ls -la         >> logs.txt  &&          
-              echo           >> logs.txt  &&       
+     command: echo "ls -la"  >> /workspace/my-gitpod-android/logs.txt  &&    
+              ls -la         >> /workspace/my-gitpod-android/logs.txt  &&        
+              echo           >> /workspace/my-gitpod-android/logs.txt  &&         
               
-              echo "pwd"     >> logs.txt  &&          
-              pwd            >> logs.txt  &&     
-              echo           >> logs.txt  &&     
+              echo "pwd"     >> /workspace/my-gitpod-android/logs.txt  &&           
+              pwd            >> /workspace/my-gitpod-android/logs.txt  &&      
+              echo           >> /workspace/my-gitpod-android/logs.txt  &&      
               
-              echo "cd .."   >> logs.txt  &&          
-              cd ..          >> logs.txt  &&     
-              echo           >> logs.txt  &&       
+              echo "cd .."   >> /workspace/my-gitpod-android/logs.txt  &&           
+              cd ..          >> /workspace/my-gitpod-android/logs.txt  &&     
+              echo           >> /workspace/my-gitpod-android/logs.txt  &&      
               
-              echo "pwd"     >> logs.txt  &&           
-              pwd            >> logs.txt  &&     
-              echo           >> logs.txt 
+              echo "pwd"     >> /workspace/my-gitpod-android/logs.txt  &&             
+              pwd            >> /workspace/my-gitpod-android/logs.txt  &&      
+              echo           >> /workspace/my-gitpod-android/logs.txt  
  
