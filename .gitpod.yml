@@ -3,7 +3,8 @@ image:
 
 tasks:
   -  before: mkdir android && touch logs.txt
-     command: ls -la >> logs.txt 
+     command:  echo "fred was here" >>  logs.txt
+     command:  ls -la >> logs.txt
 
     
     
