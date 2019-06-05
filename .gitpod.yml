@@ -3,4 +3,5 @@ image:
 
 tasks:
   - before: mkdir android
-    command: echo "Cool"
+    before: touch logs.txt
+    command: 
