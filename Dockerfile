@@ -27,7 +27,14 @@ RUN apt-get update \
 
 USER gitpod
 
-RUN wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip 
+RUN java -version \
+&& javac -version \
+&& pwd
+&& ls -la
+
+
+
+#wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip 
 #\
   #  && unzip sdk-tools-linux-4333796.zip -d android \
   #  && rm sdk-tools-linux-4333796.zip \
