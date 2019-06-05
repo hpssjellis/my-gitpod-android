@@ -29,7 +29,7 @@ USER gitpod
 
 RUN java -version \
 && javac -version \
-&& pwd
+&& pwd \
 && ls -la
 
 
