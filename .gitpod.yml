@@ -1,2 +1,6 @@
 image:
   file: Dockerfile
+
+tasks:
+  - before: mkdir android
+    command: "Cool"
