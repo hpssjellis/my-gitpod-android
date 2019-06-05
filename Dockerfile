@@ -20,16 +20,17 @@ RUN apt-get update \
 
 # ./tools/bin/sdkmanager --update
 
- 
+
+# premade in tasks before
+#mkdir android
+
+
 USER gitpod
 
-# RUN mkdir android
- #\
-  # && wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip \
-  # && unzip sdk-tools-linux-4333796.zip -d ./android 
-   #\
-   #&& rm sdk-tools-linux-4333796.zip \
-   #&& ~android/tools/bin/sdkmanager --list 
+RUN wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip \
+  #  && unzip sdk-tools-linux-4333796.zip -d android \
+  #  && rm sdk-tools-linux-4333796.zip \
+  #  && ./android/tools/bin/sdkmanager --list 
 
 
 
