@@ -4,8 +4,13 @@ image:
 tasks:
   -  before: mkdir android \
              && touch logs.txt
-     command: echo "fred was here/n" >>  logs.txt \
-              && ls -la >> logs.txt
+     command: echo "fred was here" >>  logs.txt \
+              && echo "" >>  logs.txt \       # a blank line
+              && echo "ls -la" >>  logs.txt \      
+              && ls -la >> logs.txt \
+              && echo "" >>  logs.txt \       # a blank line
+              && echo "javac -version" >>  logs.txt \      
+              && javac -version >> logs.txt \
 
     
     
