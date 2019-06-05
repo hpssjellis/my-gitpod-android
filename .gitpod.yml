@@ -2,8 +2,8 @@ image:
   file: Dockerfile
 
 tasks:
-  -  before: mkdir android \
-             && touch logs.txt
+  -  before: mkdir android \ &&
+              touch logs.txt
      command: echo "cd /workspace/my-gitpod-android" >>  logs.txt \ 
               && echo  >>  logs.txt \     
               && echo "ls -la" >>  logs.txt \       
