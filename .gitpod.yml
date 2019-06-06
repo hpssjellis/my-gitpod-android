@@ -82,7 +82,10 @@ tasks:
               echo                         &>> /workspace/my-gitpod-cordova/logs.txt  &&            
          
          
-         
+             
+              chmod +x a01-create.sh               &>> /workspace/my-gitpod-cordova/logs.txt  &&      
+              chmod +x a02-re-build.sh             &>> /workspace/my-gitpod-cordova/logs.txt  &&     
+              chmod +x a03-copy-to-folder.sh       &>> /workspace/my-gitpod-cordova/logs.txt  &&       
          
               
               echo "javac -version"   &>> /workspace/my-gitpod-cordova/logs.txt  &&             
