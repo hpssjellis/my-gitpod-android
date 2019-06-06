@@ -3,8 +3,7 @@ image:
 
 tasks:
   -  init: touch logs.txt  &&
-           mkdir android   &&
-           mkdir extras
+           mkdir android  
              
              
      command: echo "ls -la"           &>> /workspace/my-gitpod-cordova/logs.txt  &&    
@@ -61,20 +60,20 @@ tasks:
               
             
               
-              echo "npm install --prefix /workspace/my-gitpod-cordova/extras   cordova"    &>> /workspace/my-gitpod-cordova/logs.txt  &&           
-              npm install --prefix /workspace/my-gitpod-cordova/extras   cordova           &>> /workspace/my-gitpod-cordova/logs.txt  &&     
+              echo "npm install --prefix /workspace/my-gitpod-cordova/node-cordova   cordova"    &>> /workspace/my-gitpod-cordova/logs.txt  &&           
+              npm install --prefix /workspace/my-gitpod-cordova/node-cordova   cordova           &>> /workspace/my-gitpod-cordova/logs.txt  &&     
               echo                                                                           &>> /workspace/my-gitpod-cordova/logs.txt  &&     
               
                
               
-              echo "npm install --prefix /workspace/my-gitpod-cordova/extras qrcode"    &>> /workspace/my-gitpod-cordova/logs.txt  &&           
-              npm install --prefix /workspace/my-gitpod-cordova/extras qrcode           &>> /workspace/my-gitpod-cordova/logs.txt  &&     
+              echo "npm install --prefix /workspace/my-gitpod-cordova/node-qrcode qrcode"    &>> /workspace/my-gitpod-cordova/logs.txt  &&           
+              npm install --prefix /workspace/my-gitpod-cordova/node-qrcode qrcode           &>> /workspace/my-gitpod-cordova/logs.txt  &&     
               echo                                                                        &>> /workspace/my-gitpod-cordova/logs.txt  &&     
                     
          
        
-              echo 'export PATH="${PATH}:$/workspace/my-gitpod-cordova/extras/node_modules/:/workspace/my-gitpod-cordova/extras/node_modules/cordova/bin:/workspace/my-gitpod-cordova/extras/node_modules/qrcode/bin"'    &>> /workspace/my-gitpod-cordova/logs.txt  &&           
-              export PATH="${PATH}:$/workspace/my-gitpod-cordova/extras/node_modules/:/workspace/my-gitpod-cordova/extras/node_modules/cordova/bin:/workspace/my-gitpod-cordova/extras/node_modules/qrcode/bin"           &>> /workspace/my-gitpod-cordova/logs.txt  &&     
+              echo 'export PATH="${PATH}:$/workspace/my-gitpod-cordova/node-qrcode/node_modules/:/workspace/my-gitpod-cordova/node-cordova/node_modules/cordova/bin:/workspace/my-gitpod-cordova/node-qrcode/node_modules/qrcode/bin:/workspace/my-gitpod-cordova/node-qrcode/node_modules"'    &>> /workspace/my-gitpod-cordova/logs.txt  &&           
+              export PATH="${PATH}:$/workspace/my-gitpod-cordova/node-qrcode/node_modules/:/workspace/my-gitpod-cordova/node-cordova/node_modules/cordova/bin:/workspace/my-gitpod-cordova/node-qrcode/node_modules/qrcode/bin:/workspace/my-gitpod-cordova/node-qrcode/node_modules"           &>> /workspace/my-gitpod-cordova/logs.txt  &&     
               echo  $PATH                  &>> /workspace/my-gitpod-cordova/logs.txt  &&     
               echo                         &>> /workspace/my-gitpod-cordova/logs.txt  &&            
          
