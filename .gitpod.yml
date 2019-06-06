@@ -76,8 +76,8 @@ tasks:
                     
          
        
-              echo 'export PATH="${PATH}:$/workspace/my-gitpod-cordova/node-qrcode/node_modules/:/workspace/my-gitpod-cordova/node-cordova/node_modules/cordova/bin:/workspace/my-gitpod-cordova/node-qrcode/node_modules/qrcode/bin:/workspace/my-gitpod-cordova/node-qrcode/node_modules"'    &>> /workspace/my-gitpod-cordova/logs.txt  &&           
-              export PATH="${PATH}:$/workspace/my-gitpod-cordova/node-qrcode/node_modules/:/workspace/my-gitpod-cordova/node-cordova/node_modules/cordova/bin:/workspace/my-gitpod-cordova/node-qrcode/node_modules/qrcode/bin:/workspace/my-gitpod-cordova/node-qrcode/node_modules"           &>> /workspace/my-gitpod-cordova/logs.txt  &&     
+              echo 'export PATH="${PATH}:/workspace/my-gitpod-cordova/node-qrcode/node_modules/:/workspace/my-gitpod-cordova/node-cordova/node_modules/cordova/bin:/workspace/my-gitpod-cordova/node-qrcode/node_modules/qrcode/bin:/workspace/my-gitpod-cordova/node-qrcode/node_modules"'    &>> /workspace/my-gitpod-cordova/logs.txt  &&           
+              export PATH="${PATH}:/workspace/my-gitpod-cordova/node-qrcode/node_modules/:/workspace/my-gitpod-cordova/node-cordova/node_modules/cordova/bin:/workspace/my-gitpod-cordova/node-qrcode/node_modules/qrcode/bin:/workspace/my-gitpod-cordova/node-qrcode/node_modules"           &>> /workspace/my-gitpod-cordova/logs.txt  &&     
               echo  $PATH                  &>> /workspace/my-gitpod-cordova/logs.txt  &&     
               echo                         &>> /workspace/my-gitpod-cordova/logs.txt  &&            
          
