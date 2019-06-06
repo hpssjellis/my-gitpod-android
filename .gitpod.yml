@@ -18,6 +18,9 @@ tasks:
               java -version           &>>  /workspace/my-gitpod-android/logs.txt  &&     
               echo                    &>> /workspace/my-gitpod-android/logs.txt  &&      
                             
+              echo "wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip"    &>> /workspace/my-gitpod-android/logs.txt  &&           
+              wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip           &>>  /workspace/my-gitpod-android/logs.txt  &&     
+              echo                                                                                &>> /workspace/my-gitpod-android/logs.txt  &&   
               
               echo "javac -version"   &>> /workspace/my-gitpod-android/logs.txt  &&             
               javac -version          &>> /workspace/my-gitpod-android/logs.txt  &&      
