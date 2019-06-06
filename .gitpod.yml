@@ -45,9 +45,15 @@ tasks:
               
               
               
+              echo 'export ANDROID_SDK_ROOT="/workspace/rocksetta-gitpod-links/android/"'    &>> /workspace/my-gitpod-android/logs.txt  &&           
+              export ANDROID_SDK_ROOT="/workspace/rocksetta-gitpod-links/android/"           &>> /workspace/my-gitpod-android/logs.txt  &&     
+              echo                                                                           &>> /workspace/my-gitpod-android/logs.txt  &&      
               
               
-              
+             
+              echo 'export PATH="${PATH}:${ANDROID_SDK_ROOT}tools/:${ANDROID_SDK_ROOT}platform-tools/"'    &>> /workspace/my-gitpod-android/logs.txt  &&           
+              export PATH="${PATH}:${ANDROID_SDK_ROOT}tools/:${ANDROID_SDK_ROOT}platform-tools/"           &>> /workspace/my-gitpod-android/logs.txt  &&     
+              echo                                                                                         &>> /workspace/my-gitpod-android/logs.txt  &&       
               
               
               
