@@ -29,16 +29,16 @@ cordova build android --no-telemetry
 
 
 
-cp /workspace/rocksetta-gitpod-links/$wow4/platforms/android/app/build/outputs/apk/debug/app-debug.apk /workspace/rocksetta-gitpod-links/public/$wow4-app-debug.apk
+cp /workspace/my-gitpod-cordova/$wow4/platforms/android/app/build/outputs/apk/debug/app-debug.apk /workspace/my-gitpod-cordova/public/$wow4-app-debug.apk
 
 
 
-qrcode -o /workspace/rocksetta-gitpod-links/public/qrout.png $(gp url 8001);
-echo "<br><img src='qrout.png'><br>" >> /workspace/rocksetta-gitpod-links/public/index.html
+qrcode -o /workspace/my-gitpod-cordova/public/qrout.png $(gp url 8001);
+echo "<br><img src='qrout.png'><br>" >> /workspace/my-gitpod-cordova/public/index.html
 
 #printf "\n\n<a href='$wow4/platforms/android/app/build/outputs/apk/$wow4-debug.apk'>$wow4/platforms/android/app/build/outputs/apk/$wow4-debug.apk
 
-echo "<li><a href="$wow4-app-debug.apk">$wow4-app-debug.apk</a><br>" >> /workspace/rocksetta-gitpod-links/public/index.html
+echo "<li><a href="$wow4-app-debug.apk">$wow4-app-debug.apk</a><br>" >> /workspace/my-gitpod-cordovas/public/index.html
 
 
 #open the preview pane
