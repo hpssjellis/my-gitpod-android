@@ -3,8 +3,7 @@ image:
 
 tasks:
   -  init: touch logs.txt  &&
-           mkdir android   &&
-           mkdir cordova
+           mkdir android   
              
              
      command: echo "ls -la"           &>> /workspace/my-gitpod-cordova/logs.txt  &&    
@@ -61,8 +60,8 @@ tasks:
               
             
               
-              echo "npm install --prefix /workspace/my-gitpod-cordova/cordova -g cordova"    &>> /workspace/my-gitpod-cordova/logs.txt  &&           
-              npm install --prefix /workspace/my-gitpod-cordova/cordova -g cordova           &>> /workspace/my-gitpod-cordova/logs.txt  &&     
+              echo "npm install --prefix /workspace/my-gitpod-cordova/cordova   cordova"    &>> /workspace/my-gitpod-cordova/logs.txt  &&           
+              npm install --prefix /workspace/my-gitpod-cordova/cordova   cordova           &>> /workspace/my-gitpod-cordova/logs.txt  &&     
               echo                                                                           &>> /workspace/my-gitpod-cordova/logs.txt  &&     
               
                
