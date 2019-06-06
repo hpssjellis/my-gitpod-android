@@ -3,7 +3,11 @@ image:
 
 tasks:
   -  init: touch logs.txt  &&
-           mkdir android  
+           mkdir android  &&
+           mkdir node-cordova  &&
+           mkdir node-qrcode  
+           
+           
              
              
      command: echo "ls -la"           &>> /workspace/my-gitpod-cordova/logs.txt  &&    
