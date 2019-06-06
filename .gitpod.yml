@@ -61,14 +61,14 @@ tasks:
               
             
               
-              echo "npm install --prefix /workspace/my-gitpod-android/cordova -g cordova"    &>> /workspace/my-gitpod-android/logs.txt  &&           
-              npm install --prefix /workspace/my-gitpod-android/cordova -g cordova           &>> /workspace/my-gitpod-android/logs.txt  &&     
+              echo "npm install --prefix /workspace/my-gitpod-android/cordova  cordova"    &>> /workspace/my-gitpod-android/logs.txt  &&           
+              npm install --prefix /workspace/my-gitpod-android/cordova  cordova           &>> /workspace/my-gitpod-android/logs.txt  &&     
               echo                                                                           &>> /workspace/my-gitpod-android/logs.txt  &&     
               
                
               
-              echo "npm install --prefix /workspace/my-gitpod-android/cordova -g qrcode"    &>> /workspace/my-gitpod-android/logs.txt  &&           
-              npm install --prefix /workspace/my-gitpod-android/cordova -g qrcode           &>> /workspace/my-gitpod-android/logs.txt  &&     
+              echo "npm install --prefix /workspace/my-gitpod-android/cordova  qrcode"    &>> /workspace/my-gitpod-android/logs.txt  &&           
+              npm install --prefix /workspace/my-gitpod-android/cordova  qrcode           &>> /workspace/my-gitpod-android/logs.txt  &&     
               echo                                                                           &>> /workspace/my-gitpod-android/logs.txt  &&     
                     
          
