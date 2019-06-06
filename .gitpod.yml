@@ -65,7 +65,12 @@ tasks:
               npm install --prefix /workspace/my-gitpod-android/cordova -g cordova           &>> /workspace/my-gitpod-android/logs.txt  &&     
               echo                                                                           &>> /workspace/my-gitpod-android/logs.txt  &&     
               
-         
+               
+              
+              echo "npm install --prefix /workspace/my-gitpod-android/cordova -g qrcode"    &>> /workspace/my-gitpod-android/logs.txt  &&           
+              npm install --prefix /workspace/my-gitpod-android/cordova -g qrcode           &>> /workspace/my-gitpod-android/logs.txt  &&     
+              echo                                                                           &>> /workspace/my-gitpod-android/logs.txt  &&     
+                    
          
        
               echo 'export PATH="${PATH}:$/workspace/my-gitpod-android/cordova/node_modules/:/workspace/my-gitpod-android/cordova/node_modules/cordova/bin:/workspace/my-gitpod-android/cordova/node_modules/qrcode/bin"'    &>> /workspace/my-gitpod-android/logs.txt  &&           
