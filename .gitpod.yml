@@ -61,9 +61,9 @@ tasks:
               
             
               
-              echo "npm -p /workspace/my-gitpod-android/cordova   install   cordova"    &>> /workspace/my-gitpod-android/logs.txt  &&           
-              npm -p /workspace/my-gitpod-android/cordova   install   cordova           &>> /workspace/my-gitpod-android/logs.txt  &&     
-              echo                                                                      &>> /workspace/my-gitpod-android/logs.txt  &&     
+              echo "npm install   -p /workspace/my-gitpod-android/cordova cordova"    &>> /workspace/my-gitpod-android/logs.txt  &&           
+              npm install   -p /workspace/my-gitpod-android/cordova cordova           &>> /workspace/my-gitpod-android/logs.txt  &&     
+              echo                                                                    &>> /workspace/my-gitpod-android/logs.txt  &&     
               
          
          
