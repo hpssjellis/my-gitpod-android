@@ -14,9 +14,9 @@ tasks:
               pwd            >> /workspace/my-gitpod-android/logs.txt  &&      
               echo           >> /workspace/my-gitpod-android/logs.txt  &&      
               
-              echo "java -version"   >> /workspace/my-gitpod-android/logs.txt  &&           
-              java -version         |& tee -a  /workspace/my-gitpod-android/logs.txt  &&     
-              echo                   >> /workspace/my-gitpod-android/logs.txt  &&      
+              echo "java -version"   &>> /workspace/my-gitpod-android/logs.txt  &&           
+              java -version          &>>  /workspace/my-gitpod-android/logs.txt  &&     
+              echo                   &>> /workspace/my-gitpod-android/logs.txt  &&      
                             
               
               echo "javac -version"  |& tee -a  /workspace/my-gitpod-android/logs.txt  &&             
