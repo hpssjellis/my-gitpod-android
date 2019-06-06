@@ -38,9 +38,9 @@ tasks:
               
               
      
-              echo './android/tools/bin/sdkmanager "platform-tools" "platforms;android-28"'    &>> /workspace/my-gitpod-android/logs.txt  &&           
-              ./android/tools/bin/sdkmanager "platform-tools" "platforms;android-28"           &>> /workspace/my-gitpod-android/logs.txt  &&     
-              echo                                                                            &>> /workspace/my-gitpod-android/logs.txt  &&            
+              echo 'yes | ./android/tools/bin/sdkmanager "platform-tools" "platforms;android-28"'    &>> /workspace/my-gitpod-android/logs.txt  &&           
+              yes | ./android/tools/bin/sdkmanager "platform-tools" "platforms;android-28"           &>> /workspace/my-gitpod-android/logs.txt  &&     
+              echo                                                                                   &>> /workspace/my-gitpod-android/logs.txt  &&            
               
               
               
