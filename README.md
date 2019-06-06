@@ -17,9 +17,9 @@ https://gitpod.io/#github.com/hpssjellis/my-gitpod-android
 
 
 
-Partially complete android cordova build snapshot
+Android Cordova build snapshot
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#snapshot/d2c87aa0-68d6-47f4-89b2-47d60e79b91e)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#snapshot/c78f794d-457f-4ab4-8d47-2bcd60edd5c4)
 
 
 
