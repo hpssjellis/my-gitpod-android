@@ -42,9 +42,9 @@ tasks:
               
               
      
-              echo 'yes | ./android/tools/bin/sdkmanager "platform-tools" "platforms;android-28"'    &>> /workspace/my-gitpod-cordova/logs.txt  &&           
-              yes | ./android/tools/bin/sdkmanager "platform-tools" "platforms;android-28"           &>> /workspace/my-gitpod-cordova/logs.txt  &&     
-              echo                                                                                   &>> /workspace/my-gitpod-cordova/logs.txt  &&            
+              echo 'yes | ./android/tools/bin/sdkmanager "platform-tools" "build-tools;28.0.3" "platforms;android-28"'    &>> /workspace/my-gitpod-cordova/logs.txt  &&           
+              yes | ./android/tools/bin/sdkmanager "platform-tools" "build-tools;28.0.3" "platforms;android-28"           &>> /workspace/my-gitpod-cordova/logs.txt  &&     
+              echo                                                                                                        &>> /workspace/my-gitpod-cordova/logs.txt  &&            
               
               
               
