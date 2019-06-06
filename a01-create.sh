@@ -38,7 +38,7 @@ echo "<br><img src='qrout.png'><br>" >> /workspace/my-gitpod-cordova/public/inde
 
 #printf "\n\n<a href='$wow4/platforms/android/app/build/outputs/apk/$wow4-debug.apk'>$wow4/platforms/android/app/build/outputs/apk/$wow4-debug.apk
 
-echo "<li><a href="$wow4-app-debug.apk">$wow4-app-debug.apk</a><br>" >> /workspace/my-gitpod-cordovas/public/index.html
+echo "<li><a href="$wow4-app-debug.apk">$wow4-app-debug.apk</a><br>" >> /workspace/my-gitpod-cordova/public/index.html
 
 
 #open the preview pane
