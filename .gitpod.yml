@@ -6,22 +6,22 @@ tasks:
            mkdir android
              
              
-     command: echo "ls -la"  >> /workspace/my-gitpod-android/logs.txt  &&    
-              ls -la         >> /workspace/my-gitpod-android/logs.txt  &&        
-              echo           >> /workspace/my-gitpod-android/logs.txt  &&         
+     command: echo "ls -la"           &>> /workspace/my-gitpod-android/logs.txt  &&    
+              ls -la                  &>> /workspace/my-gitpod-android/logs.txt  &&        
+              echo                    &>> /workspace/my-gitpod-android/logs.txt  &&         
               
-              echo "pwd"     >> /workspace/my-gitpod-android/logs.txt  &&           
-              pwd            >> /workspace/my-gitpod-android/logs.txt  &&      
-              echo           >> /workspace/my-gitpod-android/logs.txt  &&      
+              echo "pwd"              &>> /workspace/my-gitpod-android/logs.txt  &&           
+              pwd                     &>> /workspace/my-gitpod-android/logs.txt  &&      
+              echo                    &>> /workspace/my-gitpod-android/logs.txt  &&      
               
-              echo "java -version"   &>> /workspace/my-gitpod-android/logs.txt  &&           
-              java -version          &>>  /workspace/my-gitpod-android/logs.txt  &&     
-              echo                   &>> /workspace/my-gitpod-android/logs.txt  &&      
+              echo "java -version"    &>> /workspace/my-gitpod-android/logs.txt  &&           
+              java -version           &>>  /workspace/my-gitpod-android/logs.txt  &&     
+              echo                    &>> /workspace/my-gitpod-android/logs.txt  &&      
                             
               
-              echo "javac -version"  |& tee -a  /workspace/my-gitpod-android/logs.txt  &&             
-              javac -version         |& tee -a  /workspace/my-gitpod-android/logs.txt  &&      
-              echo                   |& tee -a  /workspace/my-gitpod-android/logs.txt  
+              echo "javac -version"   &>> /workspace/my-gitpod-android/logs.txt  &&             
+              javac -version          &>> /workspace/my-gitpod-android/logs.txt  &&      
+              echo                    &>> /workspace/my-gitpod-android/logs.txt  
               
               
  
