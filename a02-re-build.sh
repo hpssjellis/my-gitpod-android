@@ -11,8 +11,8 @@
 #echo $PATH
 
 
+echo "The App must have been built with a01-create.sh"
 echo "Enter a folder name of the app you wish to re-build"
-echo "The App must have been built with a01-create-cordova-app.sh"
 read wow4
 
 #cordova create $wow4 com.$wow4.$wow4 $wow4
@@ -29,16 +29,16 @@ cordova build android --no-telemetry
 
 
 # backup old .apk
-cp /workspace/rocksetta-gitpod-links/public/$wow4-app-debug.apk /workspace/rocksetta-gitpod-links/public/$wow4-backup-app-debug.apk
+cp /workspace/my-gitpod-cordova/public/$wow4-app-debug.apk /workspace/my-gitpod-cordova/public/$wow4-backup-app-debug.apk
 
 #copy new .apk to the public folder
-cp /workspace/rocksetta-gitpod-links/$wow4/platforms/android/app/build/outputs/apk/debug/app-debug.apk /workspace/rocksetta-gitpod-links/public/$wow4-app-debug.apk
+cp /workspace/my-gitpod-cordova/$wow4/platforms/android/app/build/outputs/apk/debug/app-debug.apk /workspace/my-gitpod-cordova/public/$wow4-app-debug.apk
 
 
 
 #printf "\n\n<a href='$wow4/platforms/android/app/build/outputs/apk/$wow4-debug.apk'>$wow4/platforms/android/app/build/outputs/apk/$wow4-debug.apk
 
-echo "<li> Next rebuild <a href="$wow4-app-debug.apk">$wow4-app-debug.apk</a><br>" >> /workspace/rocksetta-gitpod-links/public/index.html
+echo "<li> Next rebuild <a href="$wow4-app-debug.apk">$wow4-app-debug.apk</a><br>" >> /workspace/my-gitpod-cordova/public/index.html
 
 apachectl start
 
