@@ -1,4 +1,4 @@
-# my-gitpod-android-install
+# my-gitpod-cordova using the .gitpod.yml file
 
 
 This presently is a work in progress. Starting to get a feel for how to do these Dockerfiles and .gitpod.yml files
