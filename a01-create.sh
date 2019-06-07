@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export ANDROID_SDK_ROOT="/workspace/rocksetta-gitpod-links/android/"
+#export ANDROID_SDK_ROOT="/workspace/rocksetta-gitpod-links/android/"
 #echo $ANDROID_SDK_ROOT
 
 #export PATH="${PATH}:${ANDROID_HOME}tools/:${ANDROID_HOME}platform-tools/"
