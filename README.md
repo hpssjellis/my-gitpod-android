@@ -19,8 +19,11 @@ https://gitpod.io/#github.com/hpssjellis/my-gitpod-android
 
 Android Cordova build snapshot
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#snapshot/c78f794d-457f-4ab4-8d47-2bcd60edd5c4)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#snapshot/7eecb695-6297-420f-b270-6dbd72517687)
 
 
+enter ./a01-create.sh 
+
+to start your web page to android app.
 
 
