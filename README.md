@@ -19,7 +19,7 @@ https://gitpod.io/#github.com/hpssjellis/my-gitpod-android
 
 Android Cordova build snapshot
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#snapshot/7eecb695-6297-420f-b270-6dbd72517687)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#snapshot/ee9707f4-b15d-4c06-906a-88d128500dbb)
 
 
 enter ./a01-create.sh 
