@@ -8,7 +8,7 @@ tasks:
            mkdir node-qrcode  
            
           
-     command: echo "Starting .gitpod.yml installation"               &>> /workspace/my-gitpod-cordova/logs.txt  &&    
+     command: echo "Starting .gitpod.yml installation\n\n"               &>> /workspace/my-gitpod-cordova/logs.txt  &&    
               echo "Install the Android SDK"                         &>> /workspace/my-gitpod-cordova/logs.txt  &&    
               
               wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip                         &&     
